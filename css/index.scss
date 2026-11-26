@@ -1,0 +1,56 @@
+:root {
+    // Colors
+    --color-black: #1c232b;
+    --color-grey: #6c7289;
+    --color-cream: #f2eae2;
+    --color-white: #ffffff;
+    --color-green-500: #3d8168;
+    --color-green-700: #1a4032;
+
+    // Typography
+    --font-family-montserrat: "Montserrat", sans-serif;
+    --font-family-fraunces: "Fraunces", serif;
+
+    // Spacing
+    --spacing-50: .25em;
+    --spacing-100: .5em;
+    --spacing-200: 1em;
+    --spacing-300: 1.5em;
+    --spacing-400: 2em;
+    --spacing-500: 2.5em;
+}
+
+%text-preset-1 {
+    font-family: var(--font-family-fraunces);
+    font-size: 2rem;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+%text-preset-2 {
+    font-family: var(--font-family-montserrat);
+    font-size: .875rem;
+    line-height: 110%;
+    font-weight: 700;
+}
+
+%text-preset-3 {
+    font-family: var(--font-family-montserrat);
+    font-size: .875rem;
+    line-height: 160%;
+    font-weight: 500;
+}
+
+%text-preset-4 {
+    font-family: var(--font-family-montserrat);
+    font-size: .75rem;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+%text-preset-5 {
+    font-family: var(--font-family-montserrat);
+    font-size: .8125rem;
+    line-height: 160%;
+    font-weight: 500;
+}

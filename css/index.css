@@ -1,0 +1,18 @@
+:root {
+  --color-black: #1c232b;
+  --color-grey: #6c7289;
+  --color-cream: #f2eae2;
+  --color-white: #ffffff;
+  --color-green-500: #3d8168;
+  --color-green-700: #1a4032;
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-fraunces: "Fraunces", serif;
+  --spacing-50: .25em;
+  --spacing-100: .5em;
+  --spacing-200: 1em;
+  --spacing-300: 1.5em;
+  --spacing-400: 2em;
+  --spacing-500: 2.5em;
+}
+
+/*# sourceMappingURL=index.css.map */
