@@ -57,6 +57,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: var(--color-cream);
+}
+
 picture {
   display: block;
   overflow: hidden;
@@ -65,8 +69,8 @@ picture {
 .card {
   width: 21.875em;
   margin: 10% auto;
-  border: 2px solid magenta;
   border-radius: 0.5em;
+  background: var(--color-white);
 }
 .card__image {
   border-top-left-radius: 0.5em;
@@ -111,6 +115,10 @@ picture {
   border: none;
   border-radius: 0.5em;
   background: var(--color-green-500);
+}
+.content__button:hover, .content__button:focus {
+  background: var(--color-green-700);
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

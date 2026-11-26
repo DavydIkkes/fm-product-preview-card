@@ -62,6 +62,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: var(--color-cream);
+}
+
 picture {
     display: block;
     overflow: hidden;
@@ -72,8 +76,8 @@ picture {
 .card {
     width: 21.875em;
     margin: 10% auto;
-    border: 2px solid magenta;
     border-radius: .5em;
+    background: var(--color-white);
 
     &__image {
         border-top-left-radius: .5em;
@@ -83,7 +87,7 @@ picture {
 
     &__content {
         padding: var(--spacing-400);
-    }
+    } 
 }
 
 .content {
@@ -134,6 +138,11 @@ picture {
         border: none;
         border-radius: .5em;
         background: var(--color-green-500);
+    
+        &:hover, &:focus {
+            background: var(--color-green-700);
+            cursor: pointer;
+        }
     }
 }
 
